@@ -1,0 +1,17 @@
+#include<stdio.h>
+void main()
+{
+  int a,r,sum=0;
+  scanf("%d",&a);
+  while(a>0)
+  {
+    r=a%10;
+    sum=sum+r;
+    a=a/10;
+  }
+  if(sum%12==0)
+  printf("Harsad Number");
+  else{
+   printf("Not Harshad Number");
+  }
+}
